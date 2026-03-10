@@ -266,17 +266,13 @@ export default function App() {
                 <div className="relative">
                   <div className="aspect-video bg-white/10 rounded-2xl backdrop-blur-xl border border-white/20 shadow-2xl overflow-hidden transform lg:rotate-3 group-hover:rotate-0 transition-transform duration-700">
                     <img 
-                      src="https://picsum.photos/seed/shoe/800/600" 
-                      alt="Project Preview" 
+                      src={project.image || "https://picsum.photos/seed/shoe/800/600"} 
+                      alt={project.name} 
                       className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
                       referrerPolicy="no-referrer"
                     />
                   </div>
-                  {/* Floating badge */}
-                  <div className="absolute -bottom-6 -right-6 glass p-6 rounded-3xl shadow-2xl hidden md:block">
-                    <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Status</p>
-                    <p className="text-indigo-600 font-bold">Live & Deployed</p>
-                  </div>
+                  {/* Floating badge removed */}
                 </div>
               </div>
             </motion.div>

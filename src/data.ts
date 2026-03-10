@@ -33,6 +33,7 @@ export const cvData = {
     {
       name: "SoleCraft",
       description: "Full-stack Shoe Store Web Application",
+      image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=800&h=600",
       link: "https://github.com/Sang0912/websellshoes",
       highlights: [
         "Developed a full-stack web application for an online shoe store.",
